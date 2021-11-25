@@ -1,0 +1,11 @@
+@import 'lib/colors/colors.vars';
+
+.text-field_error {
+  .text-field__input-wrapper {
+    border-color: $text-field_border-color_error;
+
+    &:hover {
+      border-color: $text-field_border-color_error;
+    }
+  }
+}

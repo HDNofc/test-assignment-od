@@ -1,0 +1,11 @@
+@import 'lib/colors/colors.vars';
+
+.text-field__input-wrapper {
+  background-color: #fff;
+  border: 1px solid $text-field_border-color;
+  border-radius: 3px;
+
+  &:hover {
+    border-color: $text-field_border-color_hover;
+  }
+}

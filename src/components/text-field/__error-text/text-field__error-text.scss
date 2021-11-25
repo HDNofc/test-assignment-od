@@ -1,0 +1,8 @@
+@import 'lib/colors/colors.vars';
+
+.text-field__error-text {
+  margin-top: 4px;
+  color: $text-field_text-color_error;
+  font-size: 10px;
+  line-height: 12px;
+}

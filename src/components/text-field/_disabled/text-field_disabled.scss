@@ -1,0 +1,15 @@
+@import 'lib/colors/colors.vars';
+
+.text-field_disabled {
+  .text-field__input-wrapper {
+    border-color: $text-field_border-color_disabled;
+
+    &:hover {
+      border-color: $text-field_border-color_disabled;
+    }
+  }
+
+  .text-field__input {
+    color: $text-field_text-color_disabled;
+  }
+}
