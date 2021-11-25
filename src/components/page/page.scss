@@ -1,0 +1,8 @@
+@import 'lib/colors/colors.vars';
+@import 'lib/breakpoints/breakpoints.vars';
+
+.page {
+  height: 100%;
+  background-color: $orange-red;
+  background-image: linear-gradient(255.35deg, #dc3131 0.83%, rgba(255, 79, 79, 0%) 108.93%);
+}

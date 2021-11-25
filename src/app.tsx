@@ -1,7 +1,9 @@
 import 'normalize.css';
 import 'components/document';
+import { Main } from 'views/main';
+
 const App = () => {
-  return <div className="App"></div>;
+  return <Main />;
 };
 
 export default App;
