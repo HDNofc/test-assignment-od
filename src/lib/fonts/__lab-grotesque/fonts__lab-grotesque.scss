@@ -1,0 +1,30 @@
+// @font-face {
+//   font-weight: 300;
+//   font-family: 'Lab Grotesque';
+//   font-style: normal;
+//   src: local('Lab Grotesque Light'), local('LabGrotesque-Light'),
+//     url('./fonts__lab-grotesque_light.woff2') format('woff2'),
+//     url('./fonts__lab-grotesque_light.woff') format('woff');
+//   font-display: swap;
+// }
+// TODO удалить light
+
+@font-face {
+  font-weight: 400;
+  font-family: 'Lab Grotesque';
+  font-style: normal;
+  src: local('Lab Grotesque Regular'), local('LabGrotesque-Regular'),
+    url('./fonts__lab-grotesque_regular.woff2') format('woff2'),
+    url('./fonts__lab-grotesque_regular.woff') format('woff');
+  font-display: swap;
+}
+
+@font-face {
+  font-weight: 500;
+  font-family: 'Lab Grotesque';
+  font-style: normal;
+  src: local('Lab Grotesque Medium'), local('LabGrotesque-Medium'),
+    url('./fonts__lab-grotesque_medium.woff2') format('woff2'),
+    url('./fonts__lab-grotesque_medium.woff') format('woff');
+  font-display: swap;
+}

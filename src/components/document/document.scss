@@ -1,0 +1,27 @@
+@import 'lib/typography/typography.vars';
+@import 'lib/colors/colors.vars';
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+.document {
+  box-sizing: border-box;
+  height: 100%;
+}
+
+.document__body {
+  min-width: 320px;
+  height: 100%;
+  color: $color_body;
+  font-size: $font-size_body;
+  font-family: $font-family_body;
+  line-height: $line-height__body;
+  background: $background-color_body;
+}
+
+.document__root {
+  height: 100%;
+}
