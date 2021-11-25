@@ -1,0 +1,9 @@
+@import 'lib/colors/colors.vars';
+
+.dialog__title {
+  margin: 0 30px 16px 0;
+  color: $color_primary-text;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+}

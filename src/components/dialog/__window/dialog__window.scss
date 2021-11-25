@@ -1,0 +1,18 @@
+@import 'lib/breakpoints/breakpoints.vars';
+
+.dialog__window {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  padding: 32px 16px 16px;
+  background-color: #fff;
+
+  @media (min-width: $tablet-portrait) {
+    max-width: 454px;
+    height: auto;
+    padding: 32px;
+    border-radius: 30px;
+  }
+}
