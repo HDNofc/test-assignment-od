@@ -1,0 +1,9 @@
+@import 'lib/mixins/visually-hidden.scss';
+
+.button_only-icon {
+  display: inline-flex;
+
+  .button__text {
+    @include visually-hidden;
+  }
+}

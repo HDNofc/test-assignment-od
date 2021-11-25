@@ -1,0 +1,14 @@
+@import 'lib/breakpoints/breakpoints.vars';
+
+.button_type_standard {
+  padding: 12px 24px;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+
+  @media (min-width: $tablet-portrait) {
+    padding: 16px 32px;
+    font-size: 16px;
+    line-height: 24px;
+  }
+}

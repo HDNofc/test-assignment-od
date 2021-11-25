@@ -1,0 +1,17 @@
+@import 'lib/colors/colors.vars';
+
+.button_type_text {
+  color: $red;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+
+  &:focus,
+  &:hover {
+    color: $orange;
+  }
+
+  &:active {
+    color: $red;
+  }
+}
