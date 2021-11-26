@@ -1,0 +1,11 @@
+@import 'lib/breakpoints/breakpoints.vars';
+
+.radio-group__item {
+  &:not(:last-child) {
+    margin-right: 8px;
+
+    @media (min-width: $tablet-portrait) {
+      margin-right: 16px;
+    }
+  }
+}

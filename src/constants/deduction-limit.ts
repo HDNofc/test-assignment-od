@@ -1,0 +1,1 @@
+export const DEDUCTION_LIMIT = 260000;

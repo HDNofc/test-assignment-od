@@ -1,3 +1,5 @@
+@import 'lib/breakpoints/breakpoints.vars';
+
 .dialog__close-button {
   position: absolute;
   top: 14px;
@@ -10,5 +12,12 @@
   &:focus,
   &:hover {
     opacity: 0.6;
+  }
+
+  @media (min-width: $tablet-portrait) {
+    top: 20px;
+    right: 15px;
+    width: 18px;
+    height: 18px;
   }
 }

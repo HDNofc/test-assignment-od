@@ -1,15 +1,15 @@
 @import 'lib/colors/colors.vars';
 @import 'lib/breakpoints/breakpoints.vars';
 
-.dialog__title {
-  margin: 0 30px 16px 0;
+.radio-group__caption {
+  margin-bottom: 24px;
   color: $color_primary-text;
   font-weight: 500;
-  font-size: 18px;
+  font-size: 14px;
   line-height: 24px;
 
   @media (min-width: $tablet-portrait) {
-    font-size: 28px;
-    line-height: 40px;
+    margin-right: 76px;
+    margin-bottom: 0;
   }
 }

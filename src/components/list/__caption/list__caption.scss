@@ -1,0 +1,10 @@
+@import 'lib/colors/colors.vars';
+
+.list__caption {
+  display: block;
+  margin-bottom: 16px;
+  color: $color_primary-text;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+}

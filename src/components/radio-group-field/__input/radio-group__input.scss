@@ -1,0 +1,12 @@
+@import 'lib/colors/colors.vars.scss';
+@import 'lib/mixins/visually-hidden.scss';
+
+.radio-group-field__input {
+  @include visually-hidden;
+
+  &:active + .radio-group-field__label {
+    color: $white;
+    background-color: $orange-red;
+    background-image: $brand-gradient;
+  }
+}

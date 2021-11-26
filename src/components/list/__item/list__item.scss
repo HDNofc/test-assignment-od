@@ -1,0 +1,10 @@
+@import 'lib/colors/colors.vars';
+
+.list__item {
+  padding: 16px 0;
+  border-bottom: 1px solid $gray-medium;
+
+  &:first-child {
+    padding-top: 0;
+  }
+}

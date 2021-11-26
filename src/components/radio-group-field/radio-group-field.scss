@@ -1,0 +1,23 @@
+@import 'lib/colors/colors.vars.scss';
+
+.radio-group-field {
+  display: flex;
+}
+
+.radio-group-field__label {
+  display: inline-flex;
+  padding: 6px 12px;
+  color: $black;
+  font-size: 14px;
+  line-height: 24px;
+  text-align: center;
+  background-color: $gray-light;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: color 0.2s, background-image 0.2s, background-color 0.2s;
+
+  &:focus,
+  &:hover {
+    background-color: $gray-medium;
+  }
+}

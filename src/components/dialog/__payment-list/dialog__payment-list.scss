@@ -1,0 +1,9 @@
+@import 'lib/breakpoints/breakpoints.vars';
+
+.dialog__payment-list {
+  margin-bottom: 24px;
+
+  @media (min-width: $tablet-portrait) {
+    margin-bottom: 20px;
+  }
+}

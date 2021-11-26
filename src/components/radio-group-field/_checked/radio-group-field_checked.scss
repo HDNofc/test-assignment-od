@@ -1,0 +1,24 @@
+@import 'lib/colors/colors.vars.scss';
+
+.radio-group-field_checked {
+  .radio-group-field__label {
+    color: $white;
+    background-color: $orange-red;
+    background-image: $brand-gradient;
+
+    &:focus,
+    &:hover {
+      color: $black;
+      background-color: $gray-medium;
+      background-image: none;
+    }
+  }
+
+  .radio-group-field__input {
+    &:active + .radio-group-field__label {
+      color: $white;
+      background-color: $orange-red;
+      background-image: $brand-gradient;
+    }
+  }
+}

@@ -1,0 +1,11 @@
+@import 'lib/breakpoints/breakpoints.vars';
+
+.radio-group {
+  display: flex;
+  flex-direction: column;
+
+  @media (min-width: $tablet-portrait) {
+    flex-direction: row;
+    align-items: center;
+  }
+}
