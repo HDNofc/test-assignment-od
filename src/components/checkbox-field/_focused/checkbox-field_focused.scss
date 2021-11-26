@@ -1,0 +1,9 @@
+@import 'lib/colors/colors.vars.scss';
+
+.checkbox-field_focused {
+  .checkbox-field__label {
+    &::before {
+      border-color: $black;
+    }
+  }
+}

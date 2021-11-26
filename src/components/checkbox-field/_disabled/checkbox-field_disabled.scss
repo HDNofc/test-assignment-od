@@ -1,0 +1,25 @@
+@import 'lib/colors/colors.vars.scss';
+
+.checkbox-field_disabled {
+  pointer-events: none;
+
+  .checkbox-field__label {
+    &::before {
+      background-color: $gray;
+      background-image: none;
+      border-color: $gray;
+    }
+  }
+
+  &.checkbox-field_checked {
+    .checkbox-field__label {
+      &::before {
+        background-color: $gray;
+        background-image: url('../icons/checkbox-icon.svg');
+        background-repeat: no-repeat;
+        background-position: 50%;
+        border-color: $gray;
+      }
+    }
+  }
+}

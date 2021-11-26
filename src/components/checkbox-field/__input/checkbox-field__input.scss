@@ -1,0 +1,5 @@
+@import 'lib/mixins/visually-hidden.scss';
+
+.checkbox-field__input {
+  @include visually-hidden;
+}

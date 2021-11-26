@@ -1,0 +1,27 @@
+@import 'lib/colors/colors.vars.scss';
+
+.checkbox-field__label {
+  display: inline-flex;
+  align-items: center;
+  max-width: 100%;
+
+  &::before {
+    flex-shrink: 0;
+    width: 20px;
+    height: 20px;
+    margin-right: 12px;
+    background-color: #fff;
+    border: 1px solid $gray-medium;
+    border-radius: 6px;
+    transition: background-color 0.1s, border-color 0.1s;
+    content: '';
+  }
+
+  &:hover {
+    cursor: pointer;
+
+    &::before {
+      border-color: $black;
+    }
+  }
+}
