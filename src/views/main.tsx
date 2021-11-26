@@ -20,7 +20,7 @@ export const Main = (): React.ReactElement => {
       <Page__Main>
         <Page__ActionButton>
           <Button type="standard" theme="outline" onClick={onOpenDialogClick}>
-            Налоговый платеж
+            Налоговый вычет
           </Button>
         </Page__ActionButton>
 
